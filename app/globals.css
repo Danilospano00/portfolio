@@ -1,0 +1,77 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg-primary: #0a0a0a;
+  --bg-secondary: #111111;
+  --bg-tertiary: #1a1a1a;
+  --orange-primary: #f97316;
+  --orange-bright: #fb923c;
+  --orange-deep: #ea580c;
+  --orange-glow: rgba(249, 115, 22, 0.15);
+  --text-primary: #f5f5f5;
+  --text-secondary: #a3a3a3;
+  --text-muted: #525252;
+  --border: rgba(249, 115, 22, 0.2);
+}
+
+html {
+  scroll-behavior: smooth;
+  background-color: var(--bg-primary);
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: 'DM Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--orange-deep);
+  border-radius: 3px;
+}
+
+/* Selection */
+::selection {
+  background: rgba(249, 115, 22, 0.3);
+  color: var(--text-primary);
+}
+
+/* Focus ring */
+:focus-visible {
+  outline: 2px solid var(--orange-primary);
+  outline-offset: 2px;
+}
+
+/* Flutter widget line pattern background */
+.flutter-pattern {
+  background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg stroke='%23f97316' stroke-width='0.3' stroke-opacity='0.06'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+/* Gradient text */
+.gradient-text {
+  background: linear-gradient(135deg, var(--orange-primary), var(--orange-bright));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Orange glow box shadow */
+.orange-glow {
+  box-shadow: 0 0 30px rgba(249, 115, 22, 0.15);
+}
+
+/* Timeline line */
+.timeline-line {
+  background: linear-gradient(180deg, var(--orange-primary), transparent);
+}
