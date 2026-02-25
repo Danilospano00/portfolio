@@ -195,11 +195,11 @@ export const content: Record<Lang, ContentShape> = {
         "Contributing to open source is how I give back to the community that built the tools I use every day. Here's where I've left my mark.",
       items: [
         {
-          name: 'flutter_timeline_view',
+          name: 'vault_cache',
           type: 'Author',
           description:
             'Created and published a Flutter package from scratch. A highly customizable timeline widget for Flutter apps, supporting both vertical and horizontal layouts with rich theming options.',
-          repo: 'https://github.com/Danilospano00/flutter_timeline_view',
+          repo: 'https://github.com/Danilospano00/vault_cache',
           tags: ['Flutter', 'Dart', 'pub.dev'],
           badge: 'Author',
           isAuthor: true,
@@ -211,7 +211,7 @@ export const content: Record<Lang, ContentShape> = {
           description:
             "Merged a pull request into dio, one of Flutter's most popular HTTP client packages (7k+ stars). Contributed a bug fix improving request handling and error propagation.",
           repo: 'https://github.com/cfug/dio',
-          pr: 'https://github.com/cfug/dio/pulls',
+          pr: 'https://github.com/cfug/dio/pull/2478',
           tags: ['Flutter', 'HTTP', 'Open Source'],
           badge: 'Contributor',
           isAuthor: false,
@@ -223,7 +223,7 @@ export const content: Record<Lang, ContentShape> = {
           description:
             'Merged a pull request into equatable, the beloved Flutter package for value equality used across millions of apps. Contributed a documentation improvement and fix.',
           repo: 'https://github.com/felangel/equatable',
-          pr: 'https://github.com/felangel/equatable/pulls',
+          pr: 'https://github.com/felangel/equatable/pull/207',
           tags: ['Flutter', 'Dart', 'BLoC ecosystem'],
           badge: 'Contributor',
           isAuthor: false,
@@ -362,11 +362,11 @@ export const content: Record<Lang, ContentShape> = {
         "Contribuire all'open source è il mio modo di restituire alla community che ha costruito gli strumenti che uso ogni giorno. Ecco dove ho lasciato il segno.",
       items: [
         {
-          name: 'flutter_timeline_view',
+          name: 'vault_cache',
           type: 'Autore',
           description:
             'Package Flutter creato e pubblicato da zero. Un widget timeline altamente personalizzabile per app Flutter, con supporto layout verticale e orizzontale e ricche opzioni di theming.',
-          repo: 'https://github.com/Danilospano00/flutter_timeline_view',
+          repo: 'https://github.com/Danilospano00/vault_cache',
           tags: ['Flutter', 'Dart', 'pub.dev'],
           badge: 'Autore',
           isAuthor: true,
@@ -378,7 +378,7 @@ export const content: Record<Lang, ContentShape> = {
           description:
             "PR mergiata in dio, uno dei package HTTP più popolari di Flutter (7k+ stelle). Contributo: fix di un bug che migliorava la gestione delle richieste e la propagazione degli errori.",
           repo: 'https://github.com/cfug/dio',
-          pr: 'https://github.com/cfug/dio/pulls',
+          pr: 'https://github.com/cfug/dio/pull/2478',
           tags: ['Flutter', 'HTTP', 'Open Source'],
           badge: 'Contributore',
           isAuthor: false,
@@ -390,7 +390,7 @@ export const content: Record<Lang, ContentShape> = {
           description:
             'PR mergiata in equatable, il package Flutter per la value equality usato in milioni di app. Contributo: miglioramento della documentazione e fix.',
           repo: 'https://github.com/felangel/equatable',
-          pr: 'https://github.com/felangel/equatable/pulls',
+          pr: 'https://github.com/felangel/equatable/pull/207',
           tags: ['Flutter', 'Dart', 'BLoC ecosystem'],
           badge: 'Contributore',
           isAuthor: false,

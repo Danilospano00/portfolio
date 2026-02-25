@@ -103,7 +103,7 @@ export default function Contact() {
               </a>
 
               <a
-                href="https://linkedin.com/in/danilospano"
+                href="https://www.linkedin.com/in/danilo-span%C3%B2/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-4 group"
@@ -113,7 +113,7 @@ export default function Contact() {
                   <LinkedInIcon />
                 </div>
                 <span className="text-text-secondary group-hover:text-text-primary transition-colors">
-                  linkedin.com/in/danilospano
+                 https://www.linkedin.com/in/danilo-spanò
                 </span>
               </a>
 
