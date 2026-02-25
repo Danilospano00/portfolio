@@ -39,7 +39,7 @@ export default function Contact() {
     setStatus('sending')
 
     const endpoint = process.env.NEXT_PUBLIC_FORM_ENDPOINT
-    if (!endpoint || endpoint.includes('YOUR_ID')) {
+    if (!endpoint || endpoint.includes('xdalyrnz')) {
       // Simulate success in dev
       await new Promise((r) => setTimeout(r, 1000))
       setStatus('success')
