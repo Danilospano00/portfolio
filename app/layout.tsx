@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Syne, DM_Sans, JetBrains_Mono } from 'next/font/google'
+import Script from 'next/script'
 import './globals.css'
 import { LanguageProvider } from '@/contexts/LanguageContext'
 
@@ -70,6 +71,11 @@ export default function RootLayout({
     >
       <body className="font-body bg-bg-primary text-text-primary antialiased">
         <LanguageProvider>{children}</LanguageProvider>
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon={`{"token": "${process.env.NEXT_PUBLIC_CF_BEACON_TOKEN}"}`}
+          strategy="afterInteractive"
+        />
       </body>
     </html>
   )
