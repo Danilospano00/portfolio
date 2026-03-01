@@ -22,4 +22,4 @@ jobs:
         with:
           platforms: linux/arm64  
           push: true
-          tags: ghcr.io/Danilospano00/portfolio:latest
+          tags: ghcr.io/danilospano00/portfolio:latest
