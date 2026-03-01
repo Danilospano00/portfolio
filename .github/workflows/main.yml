@@ -20,6 +20,5 @@ jobs:
       - name: Build e Push
         uses: docker/build-push-action@v5
         with:
-          platforms: linux/arm64  
           push: true
           tags: ghcr.io/danilospano00/portfolio:latest
