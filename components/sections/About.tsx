@@ -52,8 +52,6 @@ export default function About() {
     "thoughtful UX",
     "open source",
   ];
-
-  bool get isAvailable => true;
 }`}
                 </code>
               </pre>
