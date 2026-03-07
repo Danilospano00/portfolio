@@ -12,6 +12,9 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Restore .env.local
+        run: cp /home/danilo/.env.portfolio .env.local
+
       - name: Build and restart
         run: |
           docker compose up --build -d
