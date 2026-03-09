@@ -150,7 +150,7 @@ export const content: Record<Lang, ContentShape> = {
           type: 'Full-time · Hybrid',
           location: 'Turin, Italy',
           description:
-            'Building Flutter applications from scratch, owning the full project lifecycle from architecture to App Store release. Provided mentorship to a junior Flutter developer, guiding them to full autonomy. Implemented new features across two existing apps, improving both performance and UX.',
+          'Led full-stack development of multiple Flutter applications from zero to production. Designed scalable architectures, implemented automated CI/CD pipelines, and orchestrated App Store/Play Store deployment strategies. Established technical standards and infrastructure patterns adopted across all company mobile products.',
           tags: ['Flutter', 'BLoC', 'Node.js', 'Dart'],
         },
         {
